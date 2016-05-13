@@ -1,0 +1,56 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="UTF-8">
+<!-- TemplateBeginEditable name="doctitle" -->
+<title>Untitled Document</title>
+<!-- TemplateEndEditable -->
+<!-- TemplateBeginEditable name="head" -->
+<!-- TemplateEndEditable -->
+<link href="../styles.css" rel="stylesheet" type="text/css">
+<!-- TemplateParam name="French Toast Recipe" type="boolean" value="true" -->
+<!-- TemplateParam name="Mac and Cheese Recipe" type="boolean" value="true" -->
+<!-- TemplateParam name="Tilapia and Green Beans Recipe" type="boolean" value="true" -->
+<!-- TemplateParam name="Cake Pops Recipe" type="boolean" value="true" -->
+<!-- TemplateParam name="Bloody Mary Recipe" type="boolean" value="true" -->
+</head>
+
+<body>
+	<div class="wrapper">
+    	<div class="navigation">
+    	  <h1 style="color: #6CF; font-family: 'Comic Sans MS', cursive; font-size: 36px; text-align:center">Tina's Treats</h1>
+    	  <ul>
+    	    <li style="color: #309; text-align:center"><a href="../index.html">Home</a></li>
+    	    <li style="color: #309; text-align:center"><a href="../Breakfast/index.html">Breakfast</a> 
+    	      <ul>
+    	        <li style="text-align:center"><a href="../Breakfast/french-toast-recipe.html"><!-- TemplateBeginIf cond="_document['French Toast Recipe']" -->French Toast Panini Recipe<!-- TemplateEndIf --></a><!-- TemplateBeginIf cond="_document['French Toast Recipe']" --><!-- TemplateEndIf --></li>
+  	        </ul>
+    	    </li>
+    	    <li style="color: #309; text-align:center"><a href="../Lunch/index.html">Lunch</a>
+    	      <ul>
+    	        <li style="text-align:center"><!-- TemplateBeginIf cond="_document['Mac and Cheese Recipe']" --><a href="../Lunch/mac-cheese-recipe.html">Mac and Cheese Recipe</a><!-- TemplateEndIf --></li>
+  	        </ul>
+    	    </li>
+    	    <li style="color: #309; text-align:center"><a href="../Dinner/index.html">Dinner</a>
+    	      <ul>
+    	        <li style="text-align:center"><!-- TemplateBeginIf cond="_document['Tilapia and Green Beans Recipe']" --><a href="../Dinner/tilapia-greens-recipe.html">Tilapia and Green Beans Recipe</a><!-- TemplateEndIf --></li>
+  	        </ul>
+    	    </li>
+    	    <li style="color: #309; text-align:center"><a href="../Dessert/index.html">Dessert</a>
+    	      <ul>
+    	        <li style="text-align:center"><!-- TemplateBeginIf cond="_document['Cake Pops Recipe']" --><a href="../Dessert/cake-pop-recipe.html">Cake Pops Recipe</a><!-- TemplateEndIf --></li>
+  	        </ul>
+    	    </li>
+    	    <li style="color: #309; text-align:center"><a href="../Drinks/index.html">Drinks</a>
+    	      <ul>
+    	        <li style="text-align:center"><!-- TemplateBeginIf cond="_document['Bloody Mary Recipe']" --><a href="../Drinks/bloody-mary-recipe.html">Bloody Mary Recipe</a><!-- TemplateEndIf --></li>
+  	        </ul>
+    	    </li>
+   	      </ul>
+        </div>
+        <div class="content">
+          <!-- TemplateBeginEditable name="Content" -->Content<!-- TemplateEndEditable -->
+        </div>
+    </div>
+</body>
+</html>
